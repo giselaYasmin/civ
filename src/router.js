@@ -8,10 +8,12 @@ export default createRouter({
     routes: [
         {
             path: '/',
+            name: 'Home',
             component: Home
         },
         {
             path: '/countries',
+            name: 'Countries',
             component: Countries
         }
     ]
